@@ -22,8 +22,8 @@ export default function Home() {
   };
 
   return (
-    <div className="bg-black text-white h-screen flex flex-col items-center justify-center">
-      <div className="p-8 rounded bg-gray-900 w-1/2">
+    <div >
+      <div >
         <div>
           <UserButton afterSignOutUrl="/" />
         </div>
