@@ -1,34 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SysApp Project
 
-## Getting Started
+## Descrição
 
-First, run the development server:
+Este projeto é uma aplicação web desenvolvida com Next.js e Tailwind CSS. Um dos seus componentes mais cruciais é o serviço "clerck", que desempenha um papel vital na gestão e operação da aplicação.
+
+[![Next.js Version](https://img.shields.io/badge/Next.js-11.0.0-blue)](https://nextjs.org/)
+[![Tailwind Version](https://img.shields.io/badge/Tailwind-2.2.0-green)](https://tailwindcss.com/)
+
+## Pré-requisitos
+
+- Node.js >= 14.x
+- npm >= 6.x
+
+## Como Instalar
+
+```bash
+git clone https://github.com/seu_usuario/sysapp.git
+cd sysapp
+npm install
+```
+
+## Como Usar
+
+Para iniciar o projeto em ambiente de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Clerck - O Serviço
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O serviço "clerck" é o coração desta aplicação. Ele é responsável por gerir diversas funcionalidades, desde autenticação até a manipulação de dados. Sem ele, a aplicação seria incompleta.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Testes
 
-## Learn More
+Para executar os testes:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run test
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contribuindo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Por favor, leia o [CONTRIBUTING.md](CONTRIBUTING.md) para detalhes sobre como contribuir para o projeto.
 
-## Deploy on Vercel
+## Licença
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contatos e Créditos
+
+Desenvolvido por [Seu Nome](https://github.com/seu_usuario).
+
+## FAQ ou Perguntas Frequentes
+
+### Como posso entrar em contato para reportar um bug ou sugerir uma melhoria?
+
+Por favor, crie uma issue no repositório GitHub.
+
+## Anexos e Recursos Adicionais
+
+- [Documentação](https://link_para_documentacao)
+- [Artigos Relacionados](https://link_para_artigos)
+
