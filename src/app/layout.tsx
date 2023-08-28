@@ -20,9 +20,9 @@ export default function RootLayout({
     <ClerkProvider>
       <html
         lang="en"
-        className="bg-black text-white flex flex-col min-h-screen"
+        className="bg-black text-white flex flex-col min-h-screen overflow-hidden"
       >
-        <body className="flex-grow mx-auto w-full p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12 rounded bg-gray-900">
+        <body className="flex-grow mx-auto w-full p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12 rounded bg-gray-900 overflow-hidden">
           {children}
         </body>
       </html>
